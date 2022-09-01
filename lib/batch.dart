@@ -24,4 +24,12 @@ class Batch {
     // TODO - The task in this exercise is to implement this method!
     return false;
   }
+
+  void debugPrint() {
+    int counter = 1;
+    for (final student in students) {
+      print("Student $counter has ${student.friends.length} friends");
+      counter++;
+    }
+  }
 }
