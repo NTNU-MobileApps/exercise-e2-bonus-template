@@ -33,6 +33,8 @@ class Batch {
     throw UnimplementedError("The exercise is to implement this function!");
   }
 
+  /// Print debug information about the number of friends for all students
+  /// in the batch
   void debugPrint() {
     int counter = 1;
     for (final student in students) {

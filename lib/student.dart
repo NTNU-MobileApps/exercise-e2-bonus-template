@@ -6,6 +6,7 @@ class Student {
 
   final Set<Student> friends = {};
 
+  /// Give an ID to each student, number all students sequentially
   Student() : id = ++studentCount;
 
   /// Register a new friendship
