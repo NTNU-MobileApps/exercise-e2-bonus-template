@@ -17,6 +17,11 @@ class Student {
     friend.friends.add(this);
   }
 
+  /// Returns true if the given student is friends with this one
+  bool isFriendsWith(Student student) {
+    return friends.contains(student);
+  }
+
   @override
   String toString() {
     return "Student_$id";

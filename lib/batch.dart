@@ -15,6 +15,15 @@ class Batch {
     this.students.addAll(students);
   }
 
+  /// Get the first student in the batch or null if nobody is there
+  Student? first() {
+    try {
+      return students.first;
+    } on StateError catch (e) {
+      return null;
+    }
+  }
+
   /// A method which determines whether all students are connected - whether
   /// any student A in the batch can reach any other student B through
   /// a friend of a friend of a friend...
