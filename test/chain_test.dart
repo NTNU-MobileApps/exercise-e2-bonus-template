@@ -7,7 +7,6 @@ void main() {
   test('A chain of connected students', () {
     final batch = Batch();
     addChainOfStudents(batch, numberOfStudents: 10);
-    batch.debugPrint();
     expect(batch.areAllConnected(), isTrue);
   });
 }
