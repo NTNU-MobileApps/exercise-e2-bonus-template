@@ -12,6 +12,6 @@ void main() {
     addTreeOfStudents(batch, numberOfLevels: 4, nodesAtEachLevel: 8);
     addTreeOfStudents(batch, numberOfLevels: 5, nodesAtEachLevel: 8);
     addTreeOfStudents(batch, numberOfLevels: 5, nodesAtEachLevel: 10);
-    expect(batch.areAllConnected(), isTrue);
+    expect(batch.areAllConnected(), isFalse);
   });
 }

@@ -8,6 +8,6 @@ void main() {
     final batch = Batch();
     addCycle(batch, numberOfStudents: 10);
     addCycle(batch, numberOfStudents: 5);
-    expect(batch.areAllConnected(), isTrue);
+    expect(batch.areAllConnected(), isFalse);
   });
 }
