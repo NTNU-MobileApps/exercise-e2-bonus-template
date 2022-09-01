@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "Big tree of students, connected",
+      "setup": "",
+      "run": "flutter test test/big_tree_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Binary tree of students, connected",
+      "setup": "",
+      "run": "flutter test test/binary_tree_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Chain of students, connected",
+      "setup": "",
+      "run": "flutter test test/chain_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Cycle (loop) of students, connected",
+      "setup": "",
+      "run": "flutter test test/cycle_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Empty batch",
+      "setup": "",
+      "run": "flutter test test/empty_batch_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Five big trees of students, disconnected",
+      "setup": "",
+      "run": "flutter test test/five_big_trees_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "One-student, connected",
+      "setup": "",
+      "run": "flutter test test/one_student_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Three-connected students, connected",
+      "setup": "",
+      "run": "flutter test test/three_connected_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Tree and a lonely student, disconnected",
+      "setup": "",
+      "run": "flutter test test/tree_and_lonely_node_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Two binary trees of students, disconnected",
+      "setup": "",
+      "run": "flutter test test/two_binary_trees_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Two chains of students, disconnected",
+      "setup": "",
+      "run": "flutter test test/two_chains_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Two simple clusters of students, disconnected",
+      "setup": "",
+      "run": "flutter test test/two_clusters_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Two cycles (loops) trees of students, disconnected",
+      "setup": "",
+      "run": "flutter test test/two_cycles_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    }
+  ]
+}
