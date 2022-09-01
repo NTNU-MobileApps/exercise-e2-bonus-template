@@ -29,6 +29,7 @@ void addChainOfStudents(Batch batch,
 void addTreeOfStudents(Batch batch,
     {required int numberOfLevels, required int nodesAtEachLevel}) {
   final root = Student();
+  batch.add(root);
   if (numberOfLevels > 1) {
     constructSubTree(batch, root, nodesAtEachLevel, numberOfLevels - 1);
   }
