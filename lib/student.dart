@@ -6,6 +6,6 @@ class Student {
   void addFriend(Student friend) {
     friends.add(friend);
     // Let's make sure the friendship is symmetrical
-    friend.addFriend(this);
+    friend.friends.add(this);
   }
 }
