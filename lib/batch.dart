@@ -1,7 +1,7 @@
-// Represents a "batch" of students. A "Class of students" would actually be
-// a better name, but Class is a reserved name ;)
 import 'package:exercise_e2_bonus/student.dart';
 
+// Represents a "batch" of students. A "Class of students" would actually be
+// a better name, but Class is a reserved name ;)
 class Batch {
   Set<Student> students = {};
 
@@ -30,8 +30,7 @@ class Batch {
   /// Returns true if all students form a "cluster of friendships"
   /// Returns false if there are several disconnected friend clusters
   bool areAllConnected() {
-    // TODO - The task in this exercise is to implement this method!
-    return false;
+    throw UnimplementedError("The exercise is to implement this function!");
   }
 
   void debugPrint() {
